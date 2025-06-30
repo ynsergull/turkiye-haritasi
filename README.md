@@ -1,8 +1,17 @@
-# [SVG Türkiye Haritası](http://dnomak.com.tr/svg-turkiye-haritasi/)
+🗺️ İnteraktif Türkiye Haritası ile Anahtar Kelime Üretimi
+Bu projede, Google Ads kampanyaları için veri analistlerine hızlı ve hedefli anahtar kelimeler üretebilmeleri amacıyla interaktif bir Türkiye haritası uygulaması geliştirildi. Kullanıcılar il veya ilçe bazında seçim yaparak, bu seçimlere özel olarak dinamik anahtar kelimeler oluşturabiliyor.
 
-Bu SVG Türkiye Haritasında İstanbul Asya ve Avrupa ayrı Kıbrıs da var hem de Responsive.
+Özellikler:
 
- - [Harita Kaynağı](https://commons.wikimedia.org/wiki/File:Turkey_provinces_blank_gray.svg)
+İl/ilçe bazlı çoklu seçim yapabilme
 
-## Lisans
-SVG Türkiye Haritası [MIT](LICENSE) lisansı ile lisanslanmıştır.
+Anında anahtar kelime üretimi
+
+Kullanıcı dostu ve responsive arayüz
+
+MySQL tabanlı veri yapısı
+
+PHP & JavaScript ile geliştirilmiş backend ve frontend entegrasyonu
+
+Kullanılan Teknolojiler:
+PHP, JavaScript, jQuery, MySQL, Bootstrap, AJAX

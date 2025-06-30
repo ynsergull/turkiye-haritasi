@@ -1,0 +1,277 @@
+body {
+  overflow-x: hidden; /* Sayfanın sağ kenarında oluşan taşmayı gizler */
+}
+
+.cerceveli {
+  border: 10px solid #303030; /* Çerçeve rengi ve kalınlığı */
+  height: 500px; /* Çerçeve yüksekliği */
+  overflow: auto;
+  border-radius: 30px; /* İçeriğin çerçevenin sınırlarını aşması durumunda kaydırma çubuklarını göster */
+}
+.div-1 {
+  background-color: rgb(192, 226, 230);
+}
+
+.svg-turkiye-haritasi {
+  max-width: 1840px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 0px;
+}
+/*.svg-turkiye-haritasi svg {
+  width: 100%;
+  height: auto;
+}*/
+.il-isimleri {
+  position: absolute;
+  z-index: 1;
+}
+.il-isimleri div {
+  font-family: "Open Sans";
+  display: inline-block;
+  background: #1094f6;
+  color: #fff;
+  padding: 5px 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+/*#svg-turkiye-haritasi path {
+  cursor: pointer;
+  fill: #9e7b3a;
+}*/
+#svg-turkiye-haritasi .green path {
+  cursor: pointer;
+  fill: #80ef8d;
+}
+#land path {
+  cursor: pointer;
+  fill: #f3d697;
+}
+
+#sea path {
+  cursor: pointer;
+  fill: #e1c17d;
+}
+
+#svg-turkiye-haritasi .green g .ozel {
+  cursor: pointer;
+  fill: #58ba64;
+}
+#svg-turkiye-haritasi .yellow path {
+  cursor: pointer;
+  fill: #fff6a9;
+}
+#svg-turkiye-haritasi .yellow g .ozel {
+  cursor: pointer;
+  fill: #c3bc80;
+}
+#svg-turkiye-haritasi .pink path {
+  cursor: pointer;
+  fill: #f3bbc4;
+}
+#svg-turkiye-haritasi .pink g .ozel {
+  cursor: pointer;
+  fill: #c08a93;
+}
+#svg-turkiye-haritasi .orange g path {
+  cursor: pointer;
+  fill: #ffbb21;
+}
+#svg-turkiye-haritasi .orange g .ozel {
+  cursor: pointer;
+  fill: #de9b00;
+}
+#svg-turkiye-haritasi .red path {
+  cursor: pointer;
+  fill: #ff8480;
+}
+#svg-turkiye-haritasi .red g .ozel {
+  cursor: pointer;
+  fill: #ff554f;
+}
+#svg-turkiye-haritasi .blue path {
+  cursor: pointer;
+  fill: #d0ffdf;
+}
+#svg-turkiye-haritasi .blue g .ozel {
+  cursor: pointer;
+  fill: #9de0cc;
+}
+#svg-turkiye-haritasi .purple path {
+  cursor: pointer;
+  fill: #b5d94f;
+}
+#svg-turkiye-haritasi .purple g .ozel {
+  cursor: pointer;
+  fill: #92b535;
+}
+#svg-turkiye-haritasi .brown path {
+  cursor: pointer;
+  fill: #cac0a4;
+}
+#svg-turkiye-haritasi .brown g .ozel {
+  cursor: pointer;
+  fill: #a59b7e;
+}
+
+#svg-turkiye-haritasi .nokta .il {
+  cursor: pointer;
+  fill: #000000;
+}
+#svg-turkiye-haritasi .nokta .il:hover {
+  cursor: pointer;
+  fill: #4c4444;
+}
+#svg-turkiye-haritasi .nokta path {
+  fill: #ff0404;
+}
+
+#svg-turkiye-haritasi .ozel path {
+  fill: #e1ff00;
+}
+
+#svg-turkiye-haritasi g g path:hover {
+  fill: #1094f6;
+}
+#svg-turkiye-haritasi g g .ozel:hover {
+  fill: #1094f6;
+}
+
+#svg-turkiye-haritasi g #guneykibris path {
+  fill: #cac0a4;
+  pointer-events: none;
+}
+#svg-turkiye-haritasi #s path {
+  fill: #dcfaff;
+  pointer-events: none;
+}
+
+#guney-kibris {
+  pointer-events: none;
+}
+
+div.modal-body {
+  padding: 0px;
+}
+
+.il:hover {
+  fill: #ff0000; /* Mouse üzerine gelindiğinde ilin rengini değiştir */
+}
+.maplabels1 {
+  pointer-events: none;
+}
+
+#geri-butonu {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  z-index: 100;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+#geri-butonu:hover {
+  background-color: #ddd;
+}
+
+.button-23 {
+  background-color: #ffffff;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow 0.2s, -ms-transform 0.1s, -webkit-transform 0.1s,
+    transform 0.1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: 100px;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow 0.2s;
+}
+
+.button-23:active {
+  background-color: #f7f7f7;
+  border-color: #000000;
+  transform: scale(0.96);
+}
+
+.button-23:disabled {
+  border-color: #dddddd;
+  color: #dddddd;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+.custom-table {
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#harita-container {
+  width: 100%; /* İstediğiniz genişliği verebilirsiniz */
+  height: 90%; /* İstediğiniz yüksekliği verebilirsiniz */
+  overflow: auto;
+}
+#temizle-butonu {
+  position: absolute;
+  bottom: 16%; /* İstediğiniz yüksekliği ayarlayın */
+  right: 7%; /* İstediğiniz sol kenar boşluğunu ayarlayın */
+}
+#negatif-kopyala {
+  position: absolute;
+  right: 7%;
+  top: 5%;
+}
+#negatif-kopyala:hover {
+  background-color: #ddd;
+}
+#temizle-butonu:hover {
+  background-color: #ddd;
+}
+
+.small-button {
+  padding: 6px 12px; /* Yatay ve dikey boşluk */
+  font-size: 5px; /* Yazı boyutu */
+  border: 1px solid #ccc; /* Kenarlık */
+  background-color: #f0f0f0; /* Arka plan rengi */
+  color: #333; /* Yazı rengi */
+  cursor: pointer; /* Fare imlecini göster */
+}
+
+/* Butonun üzerine gelindiğinde */
+.small-button:hover {
+  background-color: #e0e0e0; /* Arka plan rengini değiştir */
+}
+
+.translucent-button {
+  background-color: transparent;
+  border: 0px solid transparent;
+  color: #000000;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
